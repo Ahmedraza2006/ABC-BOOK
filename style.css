@@ -1,0 +1,266 @@
+body{
+    background-image:url(./assets/back.jpg);
+    background-repeat: repeat;
+    font-family: "Poppins", serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+#gototop{
+    position: fixed;
+    right: 50px;
+    bottom: 10px;
+    cursor: pointer;
+    
+}
+
+h1{
+    display: flex;
+   justify-content: center;
+   font-size: 9rem;
+   color: rgb(255, 255, 255);    
+    background-color: rgba(169, 51, 199, 0.692);
+   }
+
+   div>img {
+    max-width: 100%;
+    height: auto;}
+
+h3{
+    font-size: 8rem;
+}
+
+p {
+    font-size: 4rem;
+}
+
+
+
+/* Navigation Bar */
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 4rem;
+    color: white;
+    transition: transform 0.1s ease-in-out;
+
+}
+
+nav>a:hover { 
+    transform: scale(1.4);
+
+}
+
+.navbar{
+    display: flex;
+   justify-content: center;
+   position: sticky;
+   top: 0px;
+   overflow: hidden;
+   background-color: rgb(165, 116, 197);
+
+   
+}
+
+
+/* Alphabet Containers */
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0% 5%;
+    overflow:hidden;
+    justify-content: center;
+    
+    
+}
+
+/* .box1{
+    background-color: rgb(139, 118, 118);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: rgb(29, 26, 26);
+    text-shadow: 7px 7px 12px rgba(45, 41, 41, 0.5);
+    flex-grow: 20;
+    flex-wrap: auto;
+    gap: 30%;
+    padding: 0% 30%;
+    margin: 20px 0px;
+    transition: background-color 0.6s ease-in-out;
+    box-shadow: 0px 0px 24px rgba(255, 255, 255, 0.992);
+    
+
+}
+.box1:hover {
+    background-color: rgb(179, 47, 47);
+}
+
+.box2{
+    background-color: rgb(139, 118, 118);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: rgb(29, 26, 26);
+    text-shadow: 7px 7px 12px rgba(45, 41, 41, 0.5);
+    flex-grow: 20;
+    flex-wrap: auto;
+    gap: 30%;
+    padding: 0% 30%;
+    margin: 20px 0px;
+    transition: background-color 0.6s ease-in-out;
+    box-shadow: 0px 0px 24px rgba(255, 255, 255, 0.992);
+    
+
+}
+.box2:hover {
+    background-color: rgb(172, 112, 66);
+
+}
+
+
+
+
+.box3{
+    background-color: rgb(139, 118, 118);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: rgb(29, 26, 26);
+    text-shadow: 7px 7px 12px rgba(45, 41, 41, 0.5);
+    flex-grow: 20;
+    flex-wrap: auto;
+    gap: 30%;
+    padding: 0% 30%;
+    margin: 20px 0px;
+    transition: background-color 0.6s ease-in-out;
+    box-shadow: 0px 0px 24px rgba(255, 255, 255, 0.992);
+
+}
+.box3:hover {
+    background-color: rgb(139, 123, 50);
+
+}
+
+.box4{
+    background-color: rgb(139, 118, 118);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: rgb(29, 26, 26);
+    text-shadow: 7px 7px 12px rgba(45, 41, 41, 0.5);
+    flex-grow: 20;
+    flex-wrap: auto;
+    gap: 30%;
+    padding: 0% 30%;
+    margin: 20px 0px;
+    transition: background-color 0.6s ease-in-out;
+    box-shadow: 0px 0px 24px rgba(255, 255, 255, 0.992);
+
+}
+.box4:hover {
+    background-color: rgb(104, 161, 106);
+
+}
+
+
+.box5{
+    background-color: rgb(139, 118, 118);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: rgb(29, 26, 26);
+    text-shadow: 7px 7px 12px rgba(45, 41, 41, 0.5);
+    flex-grow: 20;
+    flex-wrap: auto;
+    gap: 30%;
+    padding: 0% 30%;
+    margin: 20px 0px;
+    transition: background-color 0.6s ease-in-out;
+    box-shadow: 0px 0px 24px rgba(255, 255, 255, 0.992);
+
+}
+.box5:hover {
+    background-color: rgb(102, 77, 209);
+
+}
+
+
+.box6{
+    background-color: rgb(139, 118, 118);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: rgb(29, 26, 26);
+    text-shadow: 7px 7px 12px rgba(45, 41, 41, 0.5);
+    flex-grow: 20;
+    flex-wrap: auto;
+    gap: 30%;
+    padding: 0% 30%;
+    margin: 20px 0px;
+    transition: background-color 0.6s ease-in-out;
+    box-shadow: 0px 0px 24px rgba(255, 255, 255, 0.992);
+
+}
+.box6:hover {
+    background-color: rgb(166, 68, 207);
+
+} */
+
+/* Common Styling for all Boxes */
+.box {
+    background-color: rgb(139, 118, 118);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: rgb(29, 26, 26);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover Colors for Each Box Using nth-child (A-Z) */
+.box:nth-child(1):hover { background-color: rgb(255, 99, 132); }   /* A */
+.box:nth-child(2):hover { background-color: rgb(54, 162, 235); }   /* B */
+.box:nth-child(3):hover { background-color: rgb(255, 206, 86); }   /* C */
+.box:nth-child(4):hover { background-color: rgb(75, 192, 192); }   /* D */
+.box:nth-child(5):hover { background-color: rgb(153, 102, 255); }  /* E */
+.box:nth-child(6):hover { background-color: rgb(255, 159, 64); }   /* F */
+.box:nth-child(7):hover { background-color: rgb(201, 203, 207); }  /* G */
+.box:nth-child(8):hover { background-color: rgb(255, 87, 51); }    /* H */
+.box:nth-child(9):hover { background-color: rgb(0, 204, 102); }    /* I */
+.box:nth-child(10):hover { background-color: rgb(204, 51, 255); }  /* J */
+.box:nth-child(11):hover { background-color: rgb(0, 102, 204); }   /* K */
+.box:nth-child(12):hover { background-color: rgb(255, 204, 0); }   /* L */
+.box:nth-child(13):hover { background-color: rgb(102, 51, 153); }  /* M */
+.box:nth-child(14):hover { background-color: rgb(255, 51, 204); }  /* N */
+.box:nth-child(15):hover { background-color: rgb(0, 153, 76); }    /* O */
+.box:nth-child(16):hover { background-color: rgb(204, 0, 102); }   /* P */
+.box:nth-child(17):hover { background-color: rgb(51, 153, 255); }  /* Q */
+.box:nth-child(18):hover { background-color: rgb(255, 128, 0); }   /* R */
+.box:nth-child(19):hover { background-color: rgb(102, 255, 102); } /* S */
+.box:nth-child(20):hover { background-color: rgb(255, 0, 0); }     /* T */
+.box:nth-child(21):hover { background-color: rgb(0, 255, 255); }   /* U */
+.box:nth-child(22):hover { background-color: rgb(255, 153, 255); } /* V */
+.box:nth-child(23):hover { background-color: rgb(51, 255, 51); }   /* W */
+.box:nth-child(24):hover { background-color: rgb(0, 128, 255); }   /* X */
+.box:nth-child(25):hover { background-color: rgb(255, 102, 102); } /* Y */
+.box:nth-child(26):hover { background-color: rgb(128, 0, 255); }   /* Z */
